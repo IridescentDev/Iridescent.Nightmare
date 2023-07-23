@@ -1,0 +1,16 @@
+name: Iridescent.Nightmare
+version: '${project.version}'
+main: org.iridescent.nightmare.IridescentNightmare
+api-version: '1.20'
+authors: [ Beta_forge1 ]
+commands:
+  nightmare:
+    description: Iridescent.Nightmare's main command.
+    usage: /nightmare OPERATION_NAME
+    permission: op
+    permission-message: You do not have permission to do this.
+    subcommands:
+      summon:
+        description: Summon custom creatures.
+        usage: /nightmare summon
+        permission: op
